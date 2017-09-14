@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #dee8fb;
+  overflow-x: hidden;
+  border-right: 1px solid #c1cde4;
+  padding: 20px;
+  text-align: center;
+  /*display: flex;*/
+}
+
+.content {
+  margin-left: 280px;
+  padding-left: 20px;
+}
+
+.squares {
+  margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.sq {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  margin-right: 10px
+}
+
+form.city-search {
+  margin-top: 75px;
+  text-align: center;
+  display: block
+}
+
+form.city-search > input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+label {
+  font-size: 19px;
+  color: #434e63;
+}
+
+.invis {
+  display: none;
+}
+
+.vis {
+  display: flex;
+  flex-direction: column;
+}
+
+div.weather-el {
+  border-bottom: 1px solid #97a9ca;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #3a4d71;
+  font-size: 21px;
+  /*background-color: #ccd7ec;*/
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.name {
+  align-self: center;
+}
