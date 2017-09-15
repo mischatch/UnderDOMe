@@ -29,7 +29,6 @@ p {
   border-right: 1px solid #c1cde4;
   padding: 20px;
   text-align: center;
-  /*display: flex;*/
 }
 
 .content {
@@ -59,7 +58,6 @@ form.city-search {
 form.city-search > input {
   margin-top: 10px;
   margin-bottom: 10px;
-  /*width: 250px;*/
 }
 
 label {
@@ -97,7 +95,6 @@ div.weather-el {
   justify-content: space-between;
   color: #3a4d71;
   font-size: 21px;
-  /*background-color: #ccd7ec;*/
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
@@ -107,11 +104,8 @@ div.weather-el {
 div.weather-el-viz {
   border-bottom: 1px solid #23619e;;
   padding-bottom: 10px;
-  /*display: flex;*/
-  /*justify-content: space-between;*/
   color: #3a4d71;
   font-size: 21px;
-  /*background-color: #ccd7ec;*/
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
@@ -192,8 +186,6 @@ ul.short-link > li > div {
 }
 
 div.links {
-  /*margin-top: 20px;
-  margin-bottom: 40px;*/
   bottom: 30px;
   position: fixed;
   left: 35px;
@@ -225,8 +217,6 @@ div.links > ul > li:nth-child(1n+2) {
 
 .linkedin {
   width: 22px;
-  /*margin-top: 5px;
-  margin-bottom: 6px;*/
 }
 
 a {
