@@ -45,3 +45,7 @@ table {
 button {
 	outline: none;
 }
+
+input {
+	background-color: none;
+}

@@ -4,12 +4,22 @@ body {
 }
 
 h2 {
-  margin: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #f76b6b;
+}
+
+p {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #23619e;
 }
 
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 270px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -23,7 +33,7 @@ h2 {
 }
 
 .content {
-  margin-left: 280px;
+  margin-left: 290px;
   padding-left: 20px;
 }
 
@@ -41,7 +51,7 @@ h2 {
 }
 
 form.city-search {
-  margin-top: 75px;
+  margin-top: 55px;
   text-align: center;
   display: block
 }
@@ -49,7 +59,7 @@ form.city-search {
 form.city-search > input {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 250px;
+  /*width: 250px;*/
 }
 
 label {
@@ -63,11 +73,25 @@ label {
 
 .vis {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding-right: 5px;
+}
+
+ul.vis > li {
+  padding-left: 5px;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 21px;
+  font-weight: 300;
+  color: #23619e;
+}
+ul.vis > li:nth-child(1n+2) {
+  border-left: 1px solid #cbdced;
 }
 
 div.weather-el {
-  border-bottom: 1px solid #97a9ca;
+  border-bottom: 1px solid #f76b6b;
   padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -80,7 +104,123 @@ div.weather-el {
   margin-bottom: 20px;
   margin-right: 20px;
 }
+div.weather-el-viz {
+  border-bottom: 1px solid #23619e;;
+  padding-bottom: 10px;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  color: #3a4d71;
+  font-size: 21px;
+  /*background-color: #ccd7ec;*/
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 
 .name {
-  align-self: center;
+  margin-bottom: 10px;
+}
+
+.name-vis {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f76b6b;
+}
+
+.main-list {
+  display: flex;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #23619e;
+}
+
+.search-button {
+  width: 120px;
+  font-size: 15px;
+  background: #23619e;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.search-field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid #c6d1e7;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+input.search-field:focus {
+    background-color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.add {
+  background: transparent;
+  background-color: transparent;
+  width: 23px;
+}
+
+button.add-widget {
+  background-color: transparent;
+  border: none;
+}
+
+ul.short-link > li > div {
+  margin-right: 0;
+}
+
+div.links {
+  /*margin-top: 20px;
+  margin-bottom: 40px;*/
+  bottom: 30px;
+  position: fixed;
+  left: 35px;
+}
+
+div.links > ul > li > a {
+  font-size: 17px;
+      color: #23619e;
+}
+div.links > ul > li > a > i {
+      color: #23619e;
+  font-size: 24px;
+}
+
+div.links > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+      color: #23619e;
+}
+div.links > ul > li {
+  text-align: center;
+      color: #23619e;
+}
+
+div.links > ul > li:nth-child(1n+2) {
+  padding-left: 15px;
+}
+
+.linkedin {
+  width: 22px;
+  /*margin-top: 5px;
+  margin-bottom: 6px;*/
+}
+
+a {
+  text-decoration: none;
 }
