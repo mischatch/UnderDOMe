@@ -1,10 +1,11 @@
 # UnderDOMe
 
-[UnderDOMe](https://mischatch.github.io/UnderDOMe/) is a DOM manipulation library inspired by jQuery and writen using JavaScript. It supports some of the most important jQuery features, like:
+[UnderDOMe Live](https://mischatch.github.io/UnderDOMe/)
+
+**UnderDOMe** is a DOM manipulation library inspired by jQuery and writen using JavaScript. It supports some of the most important jQuery features, like:
 * DOM Manipulation and Traversal
 * Event Handling
 * Ajax requests
-
 
 # Usage
 
@@ -44,3 +45,11 @@ Performs an HTTP request with the return value of an object. To make a request m
 * `data` - Optional data, which will be sent to server.
 * `contentType` - Content Type of HTTP request.
 * `success` and `error` - Callbacks, which are called if request succeeds or fails.
+
+# Live website features
+
+* Uses `openweathermap.org` api to make AJAX requests
+* Manipulates data of object in the sidebar when adding as a widget to main screen
+* Fully responsive interface
+
+![Alt text](/assets/screen.png)

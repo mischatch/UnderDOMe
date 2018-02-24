@@ -83,6 +83,8 @@ ul.vis > li {
   font-size: 21px;
   font-weight: 300;
   color: #23619e;
+  height: 60px;
+
 }
 ul.vis > li:nth-child(1n+2) {
   border-left: 1px solid #cbdced;
